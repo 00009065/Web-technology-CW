@@ -14,7 +14,8 @@ header {
 }
 
 .img {
-    width: 50px;;
+    width: 50px;
+    z-index: 999;
 }
 
 nav {
@@ -66,7 +67,7 @@ nav {
 
 .text-box>a{
     margin-top: 43px;
-    font-size: 17px;
+    font-size: 25px;
     color: #ffffff;
     line-height: 151.02px;
     padding: 27px 57px 32px 67px;
@@ -184,4 +185,98 @@ footer {
     border-style: solid;
     border-color: #ffda00;
     border-radius: 45px;
+}
+
+.statistic {
+    margin-top: 97px;
+    margin-bottom: 97px;
+}
+
+.statistic-items {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.statistic-item>h2 {
+    font-size: 60px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.statistic-item>p {
+    font-size: 20px;
+}
+
+.portfolio-block {
+    margin-top: 150px;
+    padding-top: 121px;
+    padding-bottom: 119px;
+    background-color: #fff;
+    margin-bottom: 92px;
+}
+
+.portfolio-text>h1 {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.portfolio-text>p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #181a1f;
+}
+
+.tabs-nav {
+    display: flex;
+    color: black;
+    font-size: 20px;
+}
+
+.tabs-nav__item {
+    padding: 13px 38px 15px 39px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    margin-bottom: 134px;
+}
+
+.tabs-nav__item.is-active {
+    border-color: #ffda00;
+    background-color: #ffda00;
+}
+
+.tab {
+    padding-top: 113px;
+    padding-left: 79px;
+    padding-bottom: 113px;
+    padding-right: 96px;
+    width: 690px;
+    display: none;
+    background-color:#ffda00;
+    color: black;
+    opacity: 0.8;
+}
+
+.tab>h1 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 43px;
+}
+
+.tab>p {
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 37px;
+}
+
+.tab>a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    border: 2px solid #ffffff;
+    padding: 7px 49px 7px 40px;
+}
+
+.tab.is-active {
+    display: block;
 }
