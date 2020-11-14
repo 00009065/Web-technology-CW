@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Main Page</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/logob.png" type="image/png">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -14,16 +15,18 @@
     <header>
         <div class="header">
             <div class="wrapper">
-                <nav>
-                    <a href="index.html"><img src="img/logob.png" alt="logo" class="img"></a>
-                    <ul class="nav">
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="">Contact</a></li>
-                        <li><a href="">Services</a></li>
-                        <li><a href="">Portfolio</a></li>
-                        <li><a href="">Clients</a></li>
-                    </ul>
-                </nav>
+                    <div class="topnav">
+                        <a href="index.html"><img src="img/logob.png" alt="logo" class="img"></a>
+                        <div id="myLinks" class="nav">
+                            <a href="about.html">About Us</a>
+                            <a href="contact.html">Contact</a>
+                            <a href="portfolio.html">Portfolio</a>
+                            <a href="clients.html">Clients</a>
+                        </div>
+                        <a href="javascript:void(0);" class="icon" onclick="navigat()">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </div>
                 <div class="text-box">
                     <h1>This website was created to fulfill Web Technology module’s requirements and does not
                         represent an actual company or service</h1>
@@ -50,6 +53,7 @@
                 <li><a href=""><i class="fab fa-instagram btn"></i></a></li>
             </ul>
         </div>
-    </footer>   
+    </footer>
+    <script src="js/nav.js"></script>
 </body>
 </html>
